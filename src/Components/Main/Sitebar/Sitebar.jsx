@@ -1,5 +1,5 @@
 import React from 'react';
-import MyPicture from '../../assets/Photo/MePic.jpg';
+import MyPicture from '../../../assets/Photo/MePic.jpg';
 import {
   CalendarRange,
   Download,
@@ -12,18 +12,23 @@ import {
   Twitter,
 } from 'lucide-react';
 
-const MyInfo = () => {
+const Sitebar = () => {
   return (
-    <div>
-      <div className="w-full md:w-10/12 lg:w-9/12 mx-auto bg-white shadow-lg rounded-md p-5">
-        <img className="w-full rounded-md" src={MyPicture} alt="" />
+    <div className="lg:fixed   bg-white rounded-md p-5 md:p-7 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 md:gap-8 lg:gap-0">
+      <div className="w-10/12 mx-auto bg-white shadow-lg rounded-md p-5 ">
+        <img
+          className="w-full h-full lg:h-[220px] rounded-md"
+          src={MyPicture}
+          alt=""
+        />
       </div>
-      <div className="flex flex-col  mt-5">
-        <h4 className="text-xl md:text-2xl text-center font-bold">
+
+      <div className="flex flex-col  md:col-span-2 mt-5 md:mt-0 lg:mt-7">
+        <h4 className="text-xl text-center font-bold">
           Nur Mahammad Mondol Robiul
         </h4>
 
-        <div className="flex justify-center items-center gap-5  my-7">
+        <div className="flex justify-center items-center gap-7  my-5">
           <span className="text-blue-400 ">
             <Facebook />
           </span>
@@ -41,7 +46,7 @@ const MyInfo = () => {
           </span>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-3">
           <p className="flex items-center gap-1">
             <Phone />
             +08801707826864
@@ -70,4 +75,4 @@ const MyInfo = () => {
   );
 };
 
-export default MyInfo;
+export default Sitebar;
