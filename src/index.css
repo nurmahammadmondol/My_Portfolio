@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(to left, #f2e4ec, #d8e6f3);
+  min-height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
