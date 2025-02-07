@@ -31,7 +31,7 @@ const Education = () => {
   return (
     <div className="p-6 bg-white shadow-lg rounded-lg">
       <h2 className="text-2xl font-bold text-[#4FC5C5] mb-6 border-b pb-1">
-        Education
+        Educational Qualification
       </h2>
       <div className="relative border-l-2 border-[#4FC5C5] pl-4">
         {educationData.map((edu, index) => (

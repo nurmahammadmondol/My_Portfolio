@@ -13,7 +13,7 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar2 = () => {
   const links = (
-    <nav className="md:flex items-center gap-5 lg:gap-10">
+    <nav className="md:flex items-center gap-5 lg:gap-10 text-sm">
       <NavLink to="/">
         <div className="flex  flex-col items-center gap-1 hover:text-green-500 mt-3 md:mt-0">
           <User />
@@ -52,7 +52,7 @@ const NavBar2 = () => {
   );
 
   return (
-    <div className="fixed w-11/12 lg:w-10/12 mx-auto navbar bg-base-100 border z-50">
+    <div className="fixed w-11/12 lg:w-10/12 mx-auto navbar  bg-base-100 border z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -82,10 +82,12 @@ const NavBar2 = () => {
           <span className="text-[#4FC5C5]">NM</span> ROBI
         </a>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{links}</ul>
-      </div>
-      <div className="navbar-end">
+
+      <div className="navbar-end lg:flex items-center lg:gap-10">
+        <div className=" hidden lg:flex">
+          <ul className="menu menu-horizontal px-1">{links}</ul>
+        </div>
+
         <button className="flex items-center gap-2  btn rounded-none btn-accent text-white text-xs ">
           <Download /> Download CV
         </button>
