@@ -16,6 +16,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",
+    "react-simple-typewriter": "^5.0.1",
     "sort-by": "^1.2.0"
   },
   "devDependencies": {

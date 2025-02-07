@@ -15,7 +15,7 @@ const HomePage = () => {
         </div>
 
         <div className=" col-span-2 mt-10 lg:mt-0 relative">
-          <div className="h-full  md:h-[1000px] w-full bg-white p-5 ">
+          <div className="h-full  w-full ">
             <Outlet></Outlet>
           </div>
         </div>
