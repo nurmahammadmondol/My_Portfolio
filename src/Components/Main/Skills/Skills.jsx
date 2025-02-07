@@ -30,7 +30,7 @@ const skills = {
 const Skills = () => {
   return (
     <div className="">
-      <h2 className="text-2xl font-bold text-[#4FC5C5] border-b border-[#4FC5C5]">
+      <h2 className="text-2xl font-bold pb-1 text-[#4FC5C5] border-b border-[#4FC5C5]">
         Skills
       </h2>
       <div className="mt-4">

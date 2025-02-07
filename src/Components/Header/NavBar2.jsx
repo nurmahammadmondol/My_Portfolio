@@ -14,7 +14,7 @@ import { NavLink } from 'react-router-dom';
 const NavBar2 = () => {
   const links = (
     <nav className="md:flex items-center gap-5 lg:gap-10">
-      <NavLink to="/about">
+      <NavLink to="/">
         <div className="flex  flex-col items-center gap-1 hover:text-green-500 mt-3 md:mt-0">
           <User />
           <button className="hidden md:flex">ABOUT</button>
