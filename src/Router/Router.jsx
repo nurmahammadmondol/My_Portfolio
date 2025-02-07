@@ -15,7 +15,11 @@ const Router = createBrowserRouter([
     // errorElement: <h4>Error 404</h4>,
     children: [
       {
-        path: '/',
+        index: true, // এই লাইন দিলে By Default About Page দেখাবে
+        element: <About />,
+      },
+      {
+        path: '/about',
         element: <About></About>,
       },
       {

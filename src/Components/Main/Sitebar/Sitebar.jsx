@@ -15,7 +15,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const Sitebar = () => {
   return (
-    <div className="lg:fixed   bg-white rounded-md p-4 md:p-7 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 md:gap-8 lg:gap-0">
+    <div className="lg:fixed  bg-white rounded-md p-4 md:p-7 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 md:gap-5 lg:gap-0">
       <div className="w-9/12 mx-auto bg-white shadow-lg rounded-md p-4 ">
         <img
           className="w-full h-full lg:h-[190px] rounded-md"

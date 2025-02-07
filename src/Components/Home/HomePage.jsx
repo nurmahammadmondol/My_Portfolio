@@ -3,6 +3,7 @@ import React from 'react';
 import Sitebar from '../Main/Sitebar/Sitebar';
 import NavBar2 from '../Header/NavBar2';
 import { Outlet } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 const HomePage = () => {
   return (
@@ -14,10 +15,11 @@ const HomePage = () => {
           <Sitebar></Sitebar>
         </div>
 
-        <div className=" col-span-2 mt-10 lg:mt-0 relative">
-          <div className="h-full  w-full ">
+        <div className=" col-span-2 mt-10 lg:mt-0 flex flex-col justify-between gap-10">
+          <div className="flex-grow">
             <Outlet></Outlet>
           </div>
+          <Footer></Footer>
         </div>
       </div>
     </div>
