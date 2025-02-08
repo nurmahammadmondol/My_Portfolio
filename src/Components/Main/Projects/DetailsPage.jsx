@@ -14,18 +14,18 @@ const DetailsPage = () => {
 
   return (
     <div className="bg-base-100 rounded-md p-5 md:p-10">
-      <h5 className="text-2xl font-semibold text-[#4FC5C5] border-b-2 border-black p-1 mb-7 ">
+      <h5 className="text-2xl font-semibold text-[#4FC5C5] border-b-2 border-black p-1 mb-2 ">
         Details
       </h5>
 
       <div>
-        <div className=" shadow-md p-10">
+        <div className=" shadow-md p-7">
           <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
             {LoadData.projectImageLinks.map(projectImage => (
-              <div className="border h-[250px] md:h-[350px] w-full">
+              <div className=" w-full">
                 <SwiperSlide>
                   <img
-                    className="h-full w-full"
+                    className="h-full w-full border"
                     src={projectImage}
                     alt="Project Image"
                   />
