@@ -1,0 +1,114 @@
+[
+  {
+    "coverImage": "https://i.ibb.co.com/Tq8J87L7/project-one-1.png",
+    "title": "Employee Management System",
+    "shortDescription": "An efficient employee management system where HR can manage employee data.",
+    "Technologies": [
+      "React js",
+      "Javascript",
+      "Tailwind",
+      "Node.js",
+      "Express js",
+      "MongoDB",
+      "Firebase",
+      "Axois",
+      "JWT"
+    ],
+    "projectImageLinks": [
+      "https://i.ibb.co.com/0ynWDJ1Z/project-one-2.png",
+      "https://i.ibb.co.com/cSyryXWS/project-one-3.png",
+      "https://i.ibb.co.com/Pvc659mg/project-one-4.png",
+      "https://i.ibb.co.com/bjZzQRwZ/project-one-5.png",
+      "https://i.ibb.co.com/dJzwxRvV/project-one-6.png",
+      "https://i.ibb.co.com/MkX7TWWR/project-one-7.png"
+    ],
+    "description": "EmpowerHub is a comprehensive employee management system designed to streamline workforce monitoring, salary management, and employee workflow tracking. This platform enables employees to log their work updates, HR executives to verify and process payments, and administrators to manage the workforce efficiently.",
+    "Specification": [
+      "Authentication : Secure login with JWT and Firebase",
+      "Role Management : Separate dashboards for Admin and Employees",
+      "Payroll System : Salary approval and payment history tracking",
+      "Live Notifications : Real-time alerts for salary approvals, leave approvals, etc."
+    ],
+    "LiveView": "https://snazzy-daffodil-c813e6.netlify.app/",
+    "clientRepoLink": "https://github.com/nurmahammadmondol/Employee_Management-client",
+    "serverRepoLink": "https://github.com/nurmahammadmondol/Employee_Management-server"
+  },
+  {
+    "coverImage": "https://i.ibb.co.com/zVwpy2kf/project-two-2.png",
+    "title": "Restaurant Management",
+    "shortDescription": "A restaurant management system with order placement and table booking features.",
+    "Technologies": [
+      "React js",
+      "Javascript",
+      "Tailwind",
+      "Node.js",
+      "Express js",
+      "MongoDB",
+      "Firebase",
+      "Axois",
+      "JWT"
+    ],
+    "projectImageLinks": [
+      "https://i.ibb.co.com/WvT8bG1R/project-two-1.png",
+      "https://i.ibb.co.com/zVwpy2kf/project-two-2.png",
+      "https://i.ibb.co.com/LdkGvNSt/project-two-3.png",
+      "https://i.ibb.co.com/RpdTckDM/project-two-4.png",
+      "https://i.ibb.co.com/pBxKBN3q/project-two-5.png",
+      "https://i.ibb.co.com/xtcQ9kw2/project-two-6.png",
+      "https://i.ibb.co.com/Q2wQ2tm/project-two-7.png",
+      "https://i.ibb.co.com/cX28ZGKy/project-two-8.png",
+      "https://i.ibb.co.com/ZzcgQdVX/project-two-9.png",
+      "https://i.ibb.co.com/fd8YKJ2P/project-two-10.png",
+      "https://i.ibb.co.com/23VwCWW4/project-two-11.png",
+      "https://i.ibb.co.com/pvCB42wH/project-two-12.png"
+    ],
+    "description": "Yum Yum Bites is a responsive food ordering platform that allows users to browse, add, update, and order food items. With a user-friendly interface, robust authentication system, and private routes for personalized experiences, this platform enhances the online food ordering experience.",
+    "Specification": [
+      "Online Ordering : Users can order food directly from the menu",
+      "Table Booking : Customers can book tables in advance",
+      "Admin Panel : Restaurant owners can add new menu items",
+      "Payment Integration : Secure online payment support"
+    ],
+    "LiveView": "https://stellular-frangipane-a504ed.netlify.app/",
+    "clientRepoLink": "https://github.com/nurmahammadmondol/Restaurant_Management-client",
+    "serverRepoLink": "https://github.com/nurmahammadmondol/Restaurant_Management_server"
+  },
+  {
+    "coverImage": "https://i.ibb.co.com/XZZzTDG9/project-three-1.png",
+    "title": "Online Sports Equipment Store",
+    "shortDescription": "An online store for sports equipment where users can buy necessary sports gear.",
+    "Technologies": [
+      "React js",
+      "Javascript",
+      "Tailwind",
+      "Node.js",
+      "Express js",
+      "MongoDB",
+      "Firebase",
+      "Axois",
+      "JWT"
+    ],
+    "projectImageLinks": [
+      "https://i.ibb.co.com/6RggwwzS/project-three-2.png",
+      "https://i.ibb.co.com/PzwR3fgh/project-three-3.png",
+      "https://i.ibb.co.com/s9gV4gVh/project-three-4.png",
+      "https://i.ibb.co.com/XZZzTDG9/project-three-1.png",
+      "https://i.ibb.co.com/mrWm438k/project-three-5.png",
+      "https://i.ibb.co.com/jktqBKpS/project-three-6.png",
+      "https://i.ibb.co.com/ccMgZwj5/project-three-7.png",
+      "https://i.ibb.co.com/DDqm5KYW/project-three-8.png",
+      "https://i.ibb.co.com/nGDVrwt/project-three-9.png",
+      "https://i.ibb.co.com/Q34yzGgT/project-three-10.png"
+    ],
+    "description": "ProPlay Accessories is a responsive e-commerce platform designed for sports enthusiasts to browse, purchase, and manage sports equipment. With intuitive navigation, robust user authentication, and private routes for a personalized experience, it caters to all sports disciplines.",
+    "Specification": {
+      "Product Listing": "Large catalog of sports equipment",
+      "Secure Checkout": "Safe and secure payment system",
+      "Wishlist & Cart": "Users can save their favorite products",
+      "Order Tracking": "Delivery status tracking system"
+    },
+    "LiveView": "https://dainty-belekoy-1b713a.netlify.app/",
+    "clientRepoLink": "https://github.com/nurmahammadmondol/Sport-Shop-Client",
+    "serverRepoLink": "https://github.com/nurmahammadmondol/Sport-Shops-Backend"
+  }
+]

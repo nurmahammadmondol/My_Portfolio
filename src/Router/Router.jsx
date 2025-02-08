@@ -7,6 +7,7 @@ import Skills from '../Components/Main/Skills/Skills';
 import Education from '../Components/Main/Education/Education';
 import Projects from '../Components/Main/Projects/Projects';
 import Contact from '../Components/Main/Contact/Contact';
+import DetailsPage from '../Components/Main/Projects/DetailsPage';
 
 const Router = createBrowserRouter([
   {
@@ -21,6 +22,14 @@ const Router = createBrowserRouter([
       {
         path: '/skills',
         element: <Skills></Skills>,
+      },
+      {
+        path: '/details/:id',
+        element: <DetailsPage></DetailsPage>,
+        loader: ({ params }) =>
+          fetch(
+            `https://my-portfolio-seven-gamma-85.vercel.app/projects/${params.id}`
+          ),
       },
       {
         path: '/projects',
