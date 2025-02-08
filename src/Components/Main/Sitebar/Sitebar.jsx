@@ -67,19 +67,19 @@ const Sitebar = () => {
         </div>
 
         <div className="space-y-3">
-          <p className="flex items-center gap-1">
+          <p className="flex items-center gap-1 text-sm">
             <Phone />
             +08801707826864
           </p>
-          <p className="flex items-center gap-1">
+          <p className="flex items-center gap-1 text-sm">
             <Mail />
             nurmahammadmondolrobiul@gmail.com
           </p>
-          <p className="flex items-center gap-1">
+          <p className="flex items-center gap-1 text-sm">
             <MapPin />
             Rangpur, Bangladesh
           </p>
-          <p className="flex items-center gap-1">
+          <p className="flex items-center gap-1 text-sm">
             <CalendarRange />
             October 13, 2003
           </p>
