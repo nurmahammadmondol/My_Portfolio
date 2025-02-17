@@ -1,8 +1,27 @@
-# React + Vite
+# 🚀 My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🌐 Live Preview: [[Nur Mahammad Mondol Robiul](https://nurmahammadmondol.netlify.app/)]
 
-Currently, two official plugins are available:
+## 📌 About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is my personal portfolio website, showcasing my skills, projects, and
+experience as a **Software Developer and Entrepreneur** based in Rangpur,
+Bangladesh. The website highlights my expertise in frontend and backend
+development, along with my passion for solving complex problems through
+technology.
+
+## 🛠 Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS, JavaScript
+- **Backend:** Node.js, Express.js, MongoDB
+- **Authentication:** Firebase
+- **Deployment:** [Vercel/Netlify/Your Hosting Service]
+
+## 📂 Features
+
+✅ Modern and responsive UI  
+✅ Detailed About section  
+✅ Showcasing my skills and expertise  
+✅ Portfolio of projects with descriptions  
+✅ Education and contact information  
+✅ Downloadable CV

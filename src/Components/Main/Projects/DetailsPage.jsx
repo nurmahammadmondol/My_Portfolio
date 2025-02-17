@@ -51,14 +51,14 @@ const DetailsPage = () => {
             </ul>
           </div>
 
-          <div className="mt-7 flex items-center gap-7">
+          <div className="mt-7 flex items-center gap-3 md:gap-7">
             <a
               href={LoadData?.clientRepoLink}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="btn btn-sm btn-accent text-white rounded-none px-3">
-                <FileCode2 size={19} />
+              <button className="flex items-center gap-1 btn btn-sm btn-accent text-white rounded-none md:px-3">
+                <FileCode2 size={18} />
                 Client Repo
               </button>
             </a>
@@ -68,8 +68,8 @@ const DetailsPage = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="btn btn-sm btn-accent text-white rounded-none px-3">
-                <FileCode2 size={19} />
+              <button className="flex items-center gap-1 btn btn-sm btn-accent text-white rounded-none md:px-3">
+                <FileCode2 size={18} />
                 Server Repo
               </button>
             </a>

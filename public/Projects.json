@@ -101,12 +101,12 @@
       "https://i.ibb.co.com/Q34yzGgT/project-three-10.png"
     ],
     "description": "ProPlay Accessories is a responsive e-commerce platform designed for sports enthusiasts to browse, purchase, and manage sports equipment. With intuitive navigation, robust user authentication, and private routes for a personalized experience, it caters to all sports disciplines.",
-    "Specification": {
-      "Product Listing": "Large catalog of sports equipment",
-      "Secure Checkout": "Safe and secure payment system",
-      "Wishlist & Cart": "Users can save their favorite products",
-      "Order Tracking": "Delivery status tracking system"
-    },
+    "Specification": [
+      "Product Listing - Large catalog of sports equipment",
+      "Secure Checkout -  Safe and secure payment system",
+      "Wishlist & Cart - Users can save their favorite products",
+      "Order Tracking - Delivery status tracking system"
+    ],
     "LiveView": "https://dainty-belekoy-1b713a.netlify.app/",
     "clientRepoLink": "https://github.com/nurmahammadmondol/Sport-Shop-Client",
     "serverRepoLink": "https://github.com/nurmahammadmondol/Sport-Shops-Backend"

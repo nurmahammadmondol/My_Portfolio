@@ -78,7 +78,7 @@ const NavBar2 = () => {
             {links}
           </ul>
         </div>
-        <a href="/" className="btn btn-ghost text-xl">
+        <a href="/" className="btn btn-ghost text-xs md:text-xl">
           <span className="text-[#4FC5C5]">NM</span> ROBI
         </a>
       </div>
@@ -88,8 +88,8 @@ const NavBar2 = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
 
-        <button className="flex items-center gap-2  btn rounded-none btn-accent text-white text-xs ">
-          <Download /> Download CV
+        <button className="flex items-center gap-2  btn btn-sm md:btn-md rounded-none btn-accent text-white text-xs ">
+          <Download size={14} /> Download CV
         </button>
       </div>
     </div>

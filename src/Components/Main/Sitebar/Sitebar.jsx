@@ -49,21 +49,30 @@ const Sitebar = () => {
         </div>
 
         <div className="flex justify-center items-center gap-7  my-3">
-          <span className="text-blue-400 ">
-            <Facebook />
-          </span>
+          <a href="https://www.facebook.com/nm.robi.3" target="_blank">
+            <span className="text-blue-400 ">
+              <Facebook />
+            </span>
+          </a>
 
-          <span className="text-pink-500 ">
-            <Linkedin />
-          </span>
+          <a
+            href="https://www.linkedin.com/in/nur-mohammad-mondol-robiul-8672b4334/"
+            target="_blank"
+          >
+            <span className="text-pink-500 ">
+              <Linkedin />
+            </span>
+          </a>
 
           <span className="text-orange-500 ">
             <Twitter />
           </span>
 
-          <span className="text-green-400 ">
-            <Github />
-          </span>
+          <a href="https://github.com/nurmahammadmondol" target="_blank">
+            <span className="text-green-400 ">
+              <Github />
+            </span>
+          </a>
         </div>
 
         <div className="space-y-3">
