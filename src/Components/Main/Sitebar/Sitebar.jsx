@@ -18,7 +18,7 @@ const Sitebar = () => {
     <div className="lg:fixed  bg-white rounded-md p-4 md:p-7 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 md:gap-5 lg:gap-0">
       <div className="w-9/12 mx-auto bg-white shadow-lg rounded-md p-4 ">
         <img
-          className="w-full h-full lg:h-[190px] rounded-md"
+          className="w-full h-full lg:h-[180px] rounded-md"
           src={MyPicture}
           alt=""
         />
@@ -95,9 +95,14 @@ const Sitebar = () => {
         </div>
 
         <div className="mt-3">
-          <button className="flex items-center gap-3 w-full btn btn-accent text-white font-bold">
-            <Download /> Download CV
-          </button>
+          <a
+            href="../../../../public/NurMahammadMondolResume.pdf"
+            download="NurMahammadMondolResume"
+          >
+            <button className="flex items-center gap-3 w-full btn btn-accent text-white font-bold">
+              <Download /> Download CV
+            </button>
+          </a>
         </div>
       </div>
     </div>

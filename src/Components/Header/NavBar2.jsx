@@ -88,9 +88,16 @@ const NavBar2 = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
 
-        <button className="flex items-center gap-2  btn btn-sm md:btn-md rounded-none btn-accent text-white text-xs ">
-          <Download size={14} /> Download CV
-        </button>
+        <div>
+          <a
+            href="../../../public/NurMahammadMondolResume.pdf"
+            download="NurMahammadMondolResume"
+          >
+            <button className="btn btn-sm md:btn-md rounded-none btn-accent text-white text-xs">
+              Download CV
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
